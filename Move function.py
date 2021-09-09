@@ -7,6 +7,7 @@ import shutil
 src = "/users/rhyshooks/"
 target_dir = "/Users/rhyshooks/Desktop/Images/"
 
+#Locating files
 def locate_files_by_file_suffix(directory, file_suffix):
     located_files = []
     for dirpath, subdirs, files in os.walk(directory):
